@@ -1,0 +1,255 @@
+/****************************** TAG SELECTOR ***************************************/
+
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #40514e;
+}
+
+
+h1 {
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.625em;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    color: #66bfbf;
+
+}
+
+h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 4rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999e;
+    font-size: 2rem;
+}
+
+a {
+    color: #097275;
+}
+
+a:hover {
+    color: #064547;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    width: 15%;
+    border-top-width: 10px;
+    margin: 120px auto;
+    color: #bdc2c2;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+
+/****************************** CLASS SELECTOR ***************************************/
+.top-container {
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 10px;
+
+}
+
+.mountain-img {
+    width: 40%;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 7.5% auto 150px auto;
+    text-align: left;
+}
+
+
+.computer-img {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    padding-right: 40px;
+    border-radius: 100%;
+}
+
+.teamwork-img {
+    width: 35%;
+    float: right;
+    padding-left: 30px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 250px;
+    left: 300px;
+}
+
+.hello-desc {
+    width: 30%;
+    margin: 80px auto 0 auto;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.foto-cv {
+    margin: 80px auto 0 auto;
+    border-radius: 100%;
+}
+
+.skills h2 {
+    margin-bottom: 120px;
+}
+
+.skill-row p {
+    font-size: 18px;
+    padding-right: 40px;
+}
+
+.skill-row em {
+    font-size: 10px;
+}
+
+.contact-msg {
+    width: 40%;
+    margin: 20px auto;
+}
+.contact-me {
+    line-height: 2;
+    margin: 0 auto 60px auto;
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 40px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    margin: 50px auto 50px auto;
+}
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    height: 600%;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    position: relative;
+    top: 70px;
+    margin: auto 20px;
+    font-size: 35px;
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding: 100px 0 20px 0;
+    color: #eaf6f6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************** TEXT SIZE *************************************
+
+100% = 16px
+1em = 16px
+font-family = Tipo de letra. Sans (sin patas), sans serif (c patas). 
+em o %= se adapta al tamanio del body
+google fonts
+
+/************************************ PRIORIDAD ************************
+
+DE MAS AFUERA A MAS ADENTRO
+
+BODY < TAG < CLASS < INLINE INPUT
+
+EXCEPTION BODY CON FONT SIZE EN %
+
+REM = ROOT = IGNORA ATRIBUTOS DE LOS PADRES. SE CONCENTRA EN LA LINEA.
+
+USAR REM PARA HEADINGS Y TEXTOS CON ATRIBUTOS ESPECIFICOS. 1 REM = 16PX **/
